@@ -1,0 +1,32 @@
+<section class="login" id="login">
+            <h2 class="title">Log In</h2>
+        <div class="login-Content">
+            <form action="index.php" method="post">
+               <div class="input-box">
+                  <input type="text" placeholder="Username" required>
+                 
+                </div>
+
+                <div class="input-box">
+                 <input type="email" placeholder="Email" required>
+                
+                 </div>
+
+               <div class="input-box">
+                 <input type="password" placeholder="Password" required>
+                 
+                </div>
+            
+             <div class="remember-forgot">
+                 <label>
+                 <input type="checkbox">Remember Me</label>
+                 <a href="#">Forgot password</a>
+             </div>
+           
+               <button type="submit" class="btne">Submit</button>
+               <div class="register-link">
+                 <p>Don't Have An Account? <a href="#">Register</a></p>
+               </div>
+           </form>
+
+           <script type="text/javascript" src=".js"></script>
